@@ -1,25 +1,30 @@
-/**
-  |============================
-  | include css partials with
-  | default @import url()
-  |============================
-*/
+@import url('./fonts.css');
+@import url('./variable-style.css');
 @import url('./reset.css');
-@import url('./vite-promo.css');
+
+/*header*/
 @import url('./header.css');
 
-:root {
-  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
-  font-size: 16px;
-  line-height: 24px;
-  font-weight: 400;
+/*main */
+/*Hero */
+@import url('./hero.css');
 
-  color: #242424;
-  background-color: rgba(255, 255, 255, 0.87);
+/* How it works */
+@import url('how-it-works-first.css');
 
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
-}
+/* Vegetables */
+@import url('./vegetables.css');
+
+/* We will call you */
+@import url('./connect.css');
+
+/* Footer */
+@import url('./footer.css');
+
+/* Modal - Your order */
+@import url('./modal-order-mobile.css');
+/*@import url('./modal-your-order-desktop.css');*/
+
+
+/* Modal - Mobile menu */
+@import url('./mob-modal-menu.css');

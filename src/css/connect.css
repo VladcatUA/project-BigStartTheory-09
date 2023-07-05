@@ -1,0 +1,237 @@
+.connect-section {
+    max-width: 375px;
+    padding-top: 40px;
+}
+
+.connect-box {
+    max-width: 375px;
+}
+
+.connect-first-part {
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.connect-title {
+    color: var(--black);
+    text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.10);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.17;
+    letter-spacing: -0.96px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    justify-content: center;
+    text-align: center;
+    /* align: center;*/
+}
+
+.connect-text {
+    color: var(--black);
+    text-align: center;
+    text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.10);
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.29;
+    letter-spacing: -0.56px;
+    margin-bottom: 40px;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.connect-form {
+    display: flex;
+    max-width: 100%;
+}
+
+.connect-input {
+    display: flex;
+    position: relative;
+    width: 335px;
+    height: 48px;
+    padding-left: 24px;
+    border: 1px solid #C1BDBD;
+    color: #C1BDBD;
+    border-radius: 100px;
+    background-color: transparent;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    color: var(--black);
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 18px;
+    letter-spacing: -0.56px;
+}
+
+.connect-btn {
+    display: inline-flex;
+    padding: 15px 35px;
+    align-items: center;
+    position: absolute;
+    margin-left: 230px;
+    gap: 15px;
+    border: none;
+    border-radius: 100px;
+    color: var(--basic-background-color);
+    background: var(--orange);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.29;
+    letter-spacing: -0.56px;
+    text-transform: capitalize;
+}
+
+.connect-picture {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width: 335px;
+    height: 388px;
+    border-radius: 40px;
+    background-color: var(--old-lace);
+    background-image: url(/img/ellipse.png);
+    margin-bottom: 80px;
+}
+
+.connect-foto {}
+
+@media screen and (max-width: 374px) {
+    .connect-input {
+        width: 280px;
+    }
+
+    .connect-picture {
+        width: 280px;
+    }
+
+    .connect-btn {
+        margin-left: 175px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+
+    .connect-section {
+        max-width: 768px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 60px;
+    }
+
+    .connect-box {
+        max-width: 768px;
+        display: inline-flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .connect-first-part {
+        margin-bottom: 80px;
+        /* justify-content: center;*/
+    }
+
+    .connect-title {
+        width: 524px;
+        font-size: 40px;
+        letter-spacing: -1.6px;
+        line-height: 1.1;
+    }
+
+    .connect-text {
+        width: 499px;
+        font-size: 18px;
+        line-height: 1.33;
+        letter-spacing: -0.72px;
+        margin-bottom: 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .connect-form {
+        display: flex;
+        justify-content: center;
+    }
+
+    .connect-input {
+        width: 350px;
+    }
+
+    .connect-btn {
+        margin-left: 245px;
+    }
+
+    .connect-picture {
+        width: 704px;
+        height: 463px;
+        border-radius: 80px;
+        margin-bottom: 173px;
+    }
+
+    .connect-foto {}
+}
+
+@media screen and (min-width: 1280px) {
+
+    .connect-section {
+        max-width: 1280px;
+        margin-top: 84px;
+    }
+
+    .connect-box {
+        max-width: 1216px;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .connect-first-part {
+        width: 614px;
+        height: 340px;
+        margin-left: 0;
+
+
+    }
+
+    .connect-title {
+        font-size: 48px;
+        line-height: 1;
+        letter-spacing: -1.92px;
+        margin-bottom: 40px;
+        margin-left: 0;
+        text-align: left;
+    }
+
+    .connect-text {
+        width: 523px;
+        margin-bottom: 80px;
+        margin-left: 0;
+        text-align: left;
+    }
+
+    .connect-form {
+        justify-content: flex-start;
+    }
+
+
+    .connect-input {}
+
+    .connect-btn {}
+
+    .connect-picture {
+        width: 525px;
+        height: 536px;
+        margin-bottom: 124px;
+    }
+
+    .connect-foto {}
+
+}
